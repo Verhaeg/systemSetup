@@ -14,7 +14,7 @@ apt-get install -y memcached
 # Misc
 apt-get install -y curl screen
 apt-get install -y unrar unzip p7zip
-apt-get install -y vlcpidgin-themes
+apt-get install -y vlc
 apt-get install -y vim vim-runtime
 apt-get install -y pidgin pidgin-facebookchat pidgin-themes
 apt-get install postfix postfixadmin postfix-pgsql postfix-mysql
