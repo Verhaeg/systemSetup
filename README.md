@@ -37,22 +37,22 @@ It should be run as root or using sudo
 - Memcached
 - ZendServer Community Edition (PHP 5.3)
 - ZendFramework
--- It also sets sym-links from /usr/local/zend/bin/ to /usr/local/bin/
+  - It also sets sym-links from /usr/local/zend/bin/ to /usr/local/bin/
 - PHPUnit
--- DbUnit
--- PHPUnit Selenium
+  - DbUnit
+  - PHPUnit Selenium
 - PostFix
 - NodeJS
--- NPM
--- LESS
--- JSHint
--- Recess
--- UglifyJS
+  - NPM
+  - LESS
+  - JSHint
+  - Recess
+  - UglifyJS
 - Ruby 1.9.3
--- Rails
--- SASS
--- Compass
--- Zurb Foundation
+  - Rails
+  - SASS
+  - Compass
+  - Zurb Foundation
 
 ## More stuff?
 
