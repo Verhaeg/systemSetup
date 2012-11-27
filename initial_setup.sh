@@ -29,6 +29,7 @@ apt-get install -y vlc
 apt-get install -y vim vim-runtime
 apt-get install -y pidgin pidgin-facebookchat pidgin-themes
 apt-get install postfix postfixadmin postfix-pgsql postfix-mysql
+apt-get install python-pygments
 
 # Ruby and NodeJS Stuff
 echo 'Setting up Ruby and NodeJS\n'
@@ -38,6 +39,7 @@ gem install rails
 gem install sass
 gem install compass
 gem install zurb-foundation
+gem install jekyll
 npm install -g less jshint recess uglify-js
 
 # Misc Commands

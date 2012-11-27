@@ -56,6 +56,7 @@ It should be run as root or using sudo
   - SASS
   - Compass
   - Zurb Foundation
+  - Jekyll
 
 ## More stuff?
 
