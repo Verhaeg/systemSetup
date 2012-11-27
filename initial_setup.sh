@@ -74,11 +74,10 @@ cp sublime.desktop ~/.local/share/applications
 tar -xjvf SublimeText2.tar.bz2
 mv Sublime\ Text\ 2 /opt/
 
+# Shell
 echo 'Setting up bash-it'
 git clone http://github.com/revans/bash-it.git ~/.bash_it
 ~/.bash_it/install.sh
+cp .bash_profile ~/
 
-# Shell
-#apt-get install -y zsh
-#curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 echo 'All done, now go configure the necessary stuff you lazy boy\n'
