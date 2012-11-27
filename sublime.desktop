@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=2219
+Type=Application
+Terminal=false
+Exec=/opt/Sublime\ Text\ 2/sublime_text
+Name=Sublime Text 2
+Icon=/opt/Sublime Text 2/Icon/48x48/sublime_text.png
+Categories=TextEditor;Development;IDE
+X-Ayatana-Desktop-Shortcuts=NewWindow
+
+Name[en_US]=sublime
+
+[NewWindow Shortcut Group]
+Name=New Window
+Exec=/opt/Sublime\ Text\ 2/sublime_text -n
+TargetEnvironment=Unity

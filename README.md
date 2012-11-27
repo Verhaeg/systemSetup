@@ -18,6 +18,8 @@ It should be run as root or using sudo
 - Ubuntu Tweak
 - Vim
 - VLC
+- Sublime Text 2 (2219)
+  - Also adds a .desktop to ~/.local/share/applications
 
 ### Version Control
 
@@ -64,5 +66,4 @@ It also creates the following folders:
 
 Yes I know =P I'll be adding more stuff as I install them and configure on my computer such as:
 - Better bashrc (or even replace it with ZSH and oh-my-zsh)
-- Sublime Text 2 (nightly)
 - Chrome Dev
