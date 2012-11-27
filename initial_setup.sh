@@ -49,7 +49,7 @@ mkdir -p ~/workspace
 echo 'Setting up Zend Server CE and PHP 5.3\n'
 cd $deployDir
 tar -xzvf ZendServer.tar.gz ZendServer
-ret=`./ZendServer/install_zs.sh 5.3 ce`
+./ZendServer/install_zs.sh 5.3 ce
 apt-get install zend-framework-bin
 # Executables links
 cd /usr/local/bin
@@ -73,6 +73,10 @@ cd $deployDir
 cp sublime.desktop ~/.local/share/applications
 tar -xjvf SublimeText2.tar.bz2
 mv Sublime\ Text\ 2 /opt/
+
+echo 'Setting up bash-it'
+git clone http://github.com/revans/bash-it.git ~/.bash_it
+~/.bash_it/install.sh
 
 # Shell
 #apt-get install -y zsh
