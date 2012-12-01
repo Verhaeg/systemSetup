@@ -18,6 +18,7 @@ apt-get install -y subversion git-all
 # DB and Server
 echo 'Setting up Apache and DBs (MySQL, Postgres and couchDB) and Memcached\n'
 apt-get install -y mysql-server mysql-client mysql-utilities postgresql sqlite3 couchdb
+apt-get install -y postgresql-9.1-pgmemcache postgresql-contrib-9.1
 apt-get install -y apache2 apache2-utils
 apt-get install -y memcached
 
@@ -28,8 +29,12 @@ apt-get install -y unrar unzip p7zip
 apt-get install -y vlc
 apt-get install -y vim vim-runtime
 apt-get install -y pidgin pidgin-facebookchat pidgin-themes
-apt-get install postfix postfixadmin postfix-pgsql postfix-mysql
-apt-get install python-pygments
+apt-get install -y postfix postfixadmin postfix-pgsql postfix-mysql
+apt-get install -y python-pygments
+
+echo 'Setting up utils\n'
+apt-get install -y openjdk-7-jre
+apt-get install -y graphviz imagemagick
 
 # Ruby and NodeJS Stuff
 echo 'Setting up Ruby and NodeJS\n'
