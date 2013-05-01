@@ -17,8 +17,8 @@ export BASH_IT_THEME='envy'
 export GIT_HOSTING='git@github.com'
 
 # Set my editor and git editor
-export EDITOR="/usr/local/bin/sublime -w"
-export GIT_EDITOR='/usr/local/bin/sublime -w'
+export EDITOR="/usr/bin/vim"
+export GIT_EDITOR='/usr/bin/vim'
 
 # Set the path nginx
 # export NGINX_PATH='/opt/nginx'

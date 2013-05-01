@@ -18,33 +18,29 @@ It should be run as root or using sudo
 - Ubuntu Tweak
 - Vim
 - VLC
-- Sublime Text 2 (2219)
-  - Also adds a .desktop to ~/.local/share/applications
-- Bash-It
+- Bash-It*
 
 ### Version Control
 
 - Subversion
 - Git
 
-### Database
+### Database*
 
 - MySQL
 - PostgreSQL
-- SQLite
-- CouchDB
+- SQLite3
 
-### Server and development
+### Server and development*
 
 - Apache2
 - Memcached
-- ZendServer Community Edition (PHP 5.3)
+- ZendServer 6.0.1 (PHP 5.4)
 - ZendFramework
   - It also sets sym-links from /usr/local/zend/bin/ to /usr/local/bin/
 - PHPUnit
   - DbUnit
   - PHPUnit Selenium
-- PostFix
 - NodeJS
   - NPM
   - LESS
@@ -64,7 +60,10 @@ It also creates the following folders:
 - ~/www
 - ~/workspace
 
-## Missing stuff and TODO
+## PS: * items are optional and you will be required to take action on these
 
-Yes I know =P I'll be adding more stuff as I install them and configure on my computer such as:
-- Chrome Dev (it's configured but didn't find a nice way to set it up)
+## More stuff?
+
+I don't know what may be missing, there are probably a lot of stuff I'm using that is not currently here...
+
+Have an idea? please share!
